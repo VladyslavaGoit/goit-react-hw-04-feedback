@@ -1,4 +1,4 @@
-import { Component, useReducer, useState } from 'react';
+import { useReducer } from 'react';
 import FeedbackOptions from './feedbackOptions/FeedbackOptions';
 import { Notification } from './notification/Notification';
 import { Section } from './section/Section';

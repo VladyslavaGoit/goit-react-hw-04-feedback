@@ -1,10 +1,8 @@
-import { Component } from 'react';
 import css from './Feedback.module.css';
-import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  const handleOption = e => {
-    const option = e.target.textContent;
+  const handleOption = event => {
+    const option = event.target.textContent;
     onLeaveFeedback(option);
   };
 
